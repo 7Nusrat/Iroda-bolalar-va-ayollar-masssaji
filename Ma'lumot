@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iroda Ayollar va Bolalar Massaji</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ffdde1, #ee9ca7);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background: white;
+            padding: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+            animation: logoAnimation 2s infinite alternate;
+        }
+
+        @keyframes logoAnimation {
+            from { transform: scale(1); }
+            to { transform: scale(1.1); }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            animation: slideUp 1s ease-in-out;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        h2 {
+            color: #d63384;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .service {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #ddd;
+            font-size: 18px;
+            opacity: 0;
+            animation: fadeInText 1.5s ease-in-out forwards;
+        }
+
+        @keyframes fadeInText {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .price {
+            font-weight: bold;
+            color: #d63384;
+        }
+
+        .bio {
+            text-align: left;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background: #d63384;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .contact-btn:hover {
+            background: #a72565;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-list {
+            text-align: left;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <br>
+        Iroda Ayollar va Bolalar Massaji
+    </header>
+
+    <div class="container">
+        <h2>Xizmatlar va Narxlar</h2>
+
+        <div class="service">
+            <span>1 Yoshgacha Massaj</span>
+            <span class="price">50,000 so'm</span>
+        </div>
+
+        <div class="service">
+            <span>2-4 Yoshgacha Massaj</span>
+            <span class="price">70,000 so'm</span>
+        </div>
+
+        <div class="service">
+            <span>5 Yoshdan Massaj</span>
+            <span class="price">100,000 so'm</span>
+        </div>
+
+        <div class="service">
+            <span>Ayollar Massaji</span>
+            <span class="price">100,000 - 300,000 so'm</span>
+        </div>
+
+        <div class="service">
+            <span>Elektrofarez</span>
+            <span class="price">10,000 so'm</span>
+        </div>
+<div class="service">
+            <span>Parafin</span>
+            <span class="price">15,000 so'm</span>
+        </div>
+
+        <div class="service">
+            <span>Zuluk (1 dona)</span>
+            <span class="price">50,000 so'm</span>
+        </div>
+
+        <div class="service">
+            <span>Xijoma</span>
+            <span class="price">200,000 so'm</span>
+        </div>
+
+        <h2>Muolajalarni taklif qilamiz:</h2>
+        <div class="service-list">
+            • Ortopedik va nevrologik massaj <br>
+            • Displaziya, krivosheya, tonus massaj <br>
+            • LFK Osteopat mashqlari <br>
+            • Relaks massaj <br>
+            • Emaklashga, yurishga yordam beruvchi massaj <br>
+            • Ozdiruvchi massaj (ayollar uchun) <br>
+            • Xijoma, Zuluk muolajalari <br>
+            • Logo massaj <br>
+            • Parafen, Elektrofarez <br>
+            • Grija og'riqlariga massaj <br>
+            • Qon aylanish tizimini tog’irlovchi massaj <br>
+            • Skalioz, Osteoxandrozni davolovchi massaj <br>
+            • Qomat to’g’irlovchi massaj <br>
+            • X, O, obrazniy oyoqlarni davolovchi massaj
+        </div>
+
+        <div class="bio">
+            <h3>IRODA MUSAYEVA</h3>
+            <p>Massajist, muolaja qiluvchi.</p>
+            <p>Xizmatlarimiz chaqiruv (vizov) asosida amalga oshiriladi.</p>
+            <p>Albatta chiroyli natijalar qilib beriladi.</p>
+        </div>
+
+        <a href="https://t.me/IRODA_MUSAYEVA_massajistka" class="contact-btn">Bog'lanish</a>
+        <br>
+        <a href="https://t.me/+aG453cSQ2rRlYWEy" class="contact-btn">Telegram Guruhimiz</a>
+    </div>
+
+    <footer>
+         Xizmat faqat chaqiruv bo‘yicha amalga oshiriladi.  
+         Murojaat uchun: <a href="https://t.me/IRODA_MUSAYEVA_massajistka">@IRODA_MUSAYEVA_massajistka</a>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faktlar - Massajning Foydasi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; text-align: center; background: linear-gradient(to right, #ffdde1, #ee9ca7); }
+        .container { max-width: 900px; margin: 20px auto; background: white; padding: 20px; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); }
+        h2 { color: #d63384; }
+        .fact { font-size: 18px; padding: 10px; border-bottom: 1px solid #ddd; opacity: 0; animation: fadeIn 1.5s ease-in-out forwards; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        img { width: 100%; max-width: 400px; border-radius: 10px; margin-top: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); }
+        .back-btn { display: inline-block; margin-top: 15px; padding: 12px 24px; background: #d63384; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; transition: 0.3s; }
+        .back-btn:hover { background: #a72565; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Massajning Foydalari</h2>
+
+        <div class="fact">✔️ Bolalar massaji immunitetni oshiradi va organizmni mustahkamlaydi.</div>
+        <div class="fact">✔️ To‘g‘ri bajarilgan massaj mushaklarning rivojlanishiga yordam beradi.</div>
+        <div class="fact">✔️ Yangi tug‘ilgan chaqaloqlarda uyqu sifatini yaxshilaydi.</div>
+        <div class="fact">✔️ Rivojlanishdagi kechikishlarning oldini oladi.</div>
+        <div class="fact">✔️ Qon aylanishini yaxshilaydi va nerv tizimini tinchlantiradi.</div>
+
+        <img src="baby_massage.jpg" alt="Bolalar massaji">
+
+        <a href="index.html" class="back-btn">Orqaga</a>
+    </div>
+</body>
+</html>
